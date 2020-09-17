@@ -66,3 +66,21 @@ Extension tasks:
 1. Add a mini-game like [Tower of Hanoi](https://www.youtube.com/watch?v=nCdKCDSMUeA)
 1. Add a countdown timer that ends the game if the player didn't get to the treasure quickly.
 1. Add audio from the starter content to various interactions in the level.
+
+---
+
+#### Session 18 - UE4 and C++
+
+Note: take breaks at regular intervals between tasks.
+
+In this session, we will re-implement our early UE4 examples using C++. Start with [UE4 C++ quick start](https://docs.unrealengine.com/en-US/Programming/QuickStart/index.html).
+
+1. Extend the code base by rotating "roll" and "pitch", which are the same as "yaw" rotations but along different axes.
+1. Add Scale animation (similar to change in rotation, but now the change happens in scale XYZ).
+1. Add Translate animation (similar to change in rotation, but now the change happens in location XYZ).
+
+Extension tasks:
+
+1. Re-implement the animation as a change of value (e.g. translate, rotate, or scale) but as a ratio of progress `[0..1]`. For example, at progress 0, the scale could be `1,1,1` and at progress 1, the scale is `3,3,3`.
+1. Then, using delta time update progress from 0 to 1.
+1. Finally, use one of these [interpolators](https://github.com/AlmasB/FXGL/blob/master/fxgl-animation/src/main/kotlin/com/almasb/fxgl/animation/Interpolators.kt) to control the rate of change of the progress, resulting in a non-linear animation.
