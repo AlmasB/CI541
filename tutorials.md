@@ -13,6 +13,7 @@ The assignment is to build a 3rd person game with genre of your choosing (e.g. a
 1. Add a page with a few sentences related to your game vision idea and how it might be implemented. No need for details yet, just think about what objects you will need in the game, e.g. player, coin, enemy, etc.
 1. By the end of this tutorial, ensure you have at least a vague (ideally, solid) idea of what game you will build.
 
+---
 
 #### Session 12 - C++ Recap Catch-up
 
@@ -44,3 +45,24 @@ Extension tasks:
 1. Allow the user to open inventory to see items with "I".
 1. Add a combat system.
 1. Add an RPG type class mechanism with types "Warrior", "Rogue" and "Mage", giving each type appropriate stats.
+
+---
+
+#### Session 17 - Make a Platformer in UE4
+
+Note: take breaks at regular intervals between tasks.
+
+In this session, we will use everything we have covered so far to make a platformer. The game will have:
+
+1. Collectable coins that increase the player score.
+1. Player score is shown on the screen.
+1. Moving platforms with variable height.
+1. Portals that can be activated by moving on special platforms.
+1. A treasure object that completes the level.
+1. A simple puzzle that opens a passage to the treasure.
+
+Extension tasks:
+
+1. Add a mini-game like [Tower of Hanoi](https://www.youtube.com/watch?v=nCdKCDSMUeA)
+1. Add a countdown timer that ends the game if the player didn't get to the treasure quickly.
+1. Add audio from the starter content to various interactions in the level.
