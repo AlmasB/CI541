@@ -12,3 +12,35 @@ The assignment is to build a 3rd person game with genre of your choosing (e.g. a
 1. Create a Word (or alternative) document.
 1. Add a page with a few sentences related to your game vision idea and how it might be implemented. No need for details yet, just think about what objects you will need in the game, e.g. player, coin, enemy, etc.
 1. By the end of this tutorial, ensure you have at least a vague (ideally, solid) idea of what game you will build.
+
+
+#### Session 12 - C++ Recap Catch-up
+
+Note: take breaks at regular intervals between tasks.
+
+In this session, we will recap most C++ aspects we have covered and we will produce a few C++ games in the terminal.
+
+1. Basics
+1. Containers
+1. Memory Management
+1. Q & A + catch-up
+
+Tasks:
+
+1. Produce a terminal game called "guess the number":
+
+The game picks a random number between 1 and 100. The user guesses the number from the terminal. The game responds: "higher", "lower" or "you won!".
+
+1. Produce a terminal game called "Dungeon explorer":
+
+The game generates a small dungeon (a 2d grid) and randomly populates the rooms with monsters or items. The user spawns in a random room and can type "N" for North, "S" for South, etc. to move around the dungeon.
+
+Extension tasks:
+
+1. If the user encounters an item, allow them to pick it up with "P".
+1. If the user encounters a monster, allow them to fight it with "F".
+1. Add an item class with `std::string` name.
+1. Add an inventory class to keep track of items.
+1. Allow the user to open inventory to see items with "I".
+1. Add a combat system.
+1. Add an RPG type class mechanism with types "Warrior", "Rogue" and "Mage", giving each type appropriate stats.
