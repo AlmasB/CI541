@@ -15,6 +15,14 @@ The assignment is to build a 3rd person game with genre of your choosing (e.g. a
 
 ---
 
+#### Tutorial 2-11
+
+Link: [C++ Tutorials playlist](https://youtube.com/playlist?list=PL4h6ypqTi3RTsioTNjsLVgeEQ1HKR5H85)
+
+Watch and complete the appropriate tutorial number that matches `week number - 1`, so Week 3 - tutorial 2, Week 4 - tutorial 3, etc.
+
+---
+
 #### Session 12 - C++ Recap Catch-up
 
 Note: take breaks at regular intervals between tasks.
